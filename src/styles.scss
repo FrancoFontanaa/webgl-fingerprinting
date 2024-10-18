@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background: #333333;
+  color: rgb(235, 235, 235);
+}
+
+.neumorphism {
+  padding: 10px;
+  border-radius: 10px;
+  background: linear-gradient(145deg, #2e2e2e, #373737);
+  box-shadow: 7px 7px 14px #242424, -7px -7px 14px #424242;
+}
+
+.coloured-text {
+  background: linear-gradient(90deg, #00c9ff 0%, #92fe9d 100%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

@@ -1,0 +1,27 @@
+<div class="canvas-container neumorphism">
+  <h4>Seed image</h4>
+  <canvas
+    #canvas
+    [width]="canvasProperties.width"
+    [height]="canvasProperties.height"
+  ></canvas>
+</div>
+<div class="another-data-container neumorphism">
+  <h4><strong class="coloured-text">GPU Data:</strong> {{ gpuID }}</h4>
+  <h4><strong class="coloured-text">Render Hash:</strong> {{ renderID }}</h4>
+  <h4><strong class="coloured-text">Screen Data:</strong> {{ screenID }}</h4>
+  <h4>
+    <strong class="coloured-text">Platform Data:</strong> {{ platformID }}
+  </h4>
+  <h4>
+    <strong class="coloured-text">Timezone Data:</strong> {{ timezoneID }}
+  </h4>
+</div>
+
+<h3 class="unique-id neumorphism">
+  <strong class="coloured-text">Unique ID:</strong> {{ uniqueID }}
+</h3>
+
+<a class="coloured-text" href="https://www.github.com/francofontanaa"
+  >github.com/francofontanaa</a
+>
